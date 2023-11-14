@@ -160,7 +160,7 @@ if __name__ == "__main__":
             controller.program_state["camera"].yaw += dx * 0.01
             controller.program_state["camera"].pitch += dy * 0.01
 
-
+  
     # draw loop
     @controller.event
     def on_draw():
